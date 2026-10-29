@@ -18,9 +18,9 @@ export interface ArticleSource {
 }
 
 export interface Article {
-    sorce: ArticleSource;
+    source: ArticleSource;
     author: string | null;
-    titel: string;
+    title: string;
     description: string | null;
     url: string;
     urlToImage: string | null;
