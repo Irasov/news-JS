@@ -7,19 +7,27 @@
         <title>NewsPortal</title>
     </head>
     <body>
-        <header>
-            <h1>News Portal</h1>
-        </header>
-        <main>
-            <div class="sources buttons"></div>
-            <div class="news"></div>
-        </main>
-        <footer>
-            <p class="copyright">
-                Copyright <a href="https://newsapi.org">NewsAPI</a>
-            </p>
-        </footer>
-
+        <div class="wrapper">
+            <header>
+                <div class="header__container">
+                    <h1>News Portal</h1>
+                </div>
+            </header>
+            <main class="main">
+                <div class="main__container">
+                    <div class="sources buttons"></div>
+                    <div class="news"></div>
+                </div>
+            </main>
+            <footer>
+                <div class="footer__container">
+                    <p class="copyright">
+                        Copyright <a href="https://newsapi.org">NewsAPI</a>
+                    </p>
+                </div>
+            </footer>
+            </div>
+        
         <template id="sourceItemTemp">
             <div class="source__item">
                 <span class="source__item-name"></span>
