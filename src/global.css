@@ -72,6 +72,23 @@ header h1 {
     font-weight: 800;
 }
 
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    height: 140px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #70d6ff transparent;
+}
+
+.buttons::-webkit-scrollbar {
+    width: 6px;
+}
+.buttons::-webkit-scrollbar-thumb {
+    background: #70d6ff;
+    border-radius: 3px;
+}
+
 footer {
     padding: 20px 0;
     height: 100px;
